@@ -8,26 +8,64 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-black">
+<body class="max-w-xl mx-auto
+    border border-black
+    min-h-dvh
+    bg-gradient-to-b from-black via-sky-950 to-gray-800">
+
     <header class="text-white">
-        <h1>midu.links!</h1>
-        <p>Links and courses</p>
-        <a 
-        class=""
-        href="https://twitch.tv/midudev" target="_blank"
-        aria-label="Twitch" title="Go to @midudev's Twitch">
+        <img src="./assets/Le me.jpg" alt="midudev smiling"
+        class="h-96 object-cover mask-radial-at-center
+        mask-radial-from-45% mask-radial-to-70%">
+
+        <section class="flex gap-2 justify-center">
+        <a class="bg-purple-100 p-2 size-12 flex items-center justify-center
+        rounded-full hover:scale-110 transition-transform" href="https://twitch.tv/midudev" target="_blank"
+            aria-label="Twitch" title="Go to @midudev's Twitch">
             <svg width="28" height="28">
                 <use xlink:href="./assets/sprite.svg#twitch" />
             </svg>
         </a>
 
+        <a class="bg-zinc-900 p-2 size-12 flex items-center justify-center
+        rounded-full hover:scale-110 transition-transform" href="https://github.com/midudev" target="_blank"
+            aria-label="GitHub" title="Go to @midudev's GitHub">
+            <svg width="28" height="28">
+                <use xlink:href="./assets/sprite.svg#github" />
+            </svg>
+        </a>
+
+        <a class="social-button animate-slide-up-fade animate-delay-200 bg-gradient-to-tr from-yellow-300 via-pink-600 to-purple-600"
+            href="https://instagram.com/midudev" target="_blank" aria-label="Instagram"
+            title="Go to @midudev's Instagram">
+            <svg width="28" height="28">
+                <use xlink:href="./assets/sprite.svg#instagram" />
+            </svg>
+        </a>
+
+        <a class="bg-white social-button animate-slide-up-fade animate-delay-300" href="https://youtube.com/midudev"
+            target="_blank" aria-label="YouTube" title="Go to @midudev's Youtube">
+            <svg width="28" height="28">
+                <use xlink:href="./assets/sprite.svg#youtube" />
+            </svg>
+        </a>
+
+        <a class="bg-black social-button animate-slide-up-fade animate-delay-400" href="https://x.com/midudev"
+            target="_blank" aria-label="X" title="Go to @midudev's X">
+            <svg width="28" height="28">
+                <use xlink:href="./assets/sprite.svg#x" />
+            </svg>
+        </a>
+
+        <a class="bg-white social-button animate-slide-up-fade animate-delay-500" href="https://linkedin.com/in/midudev"
+            target="_blank" aria-label="LinkedIn" title="Go to @midudev's LinkedIn">
+            <svg width="28" height="28">
+                <use xlink:href="./assets/sprite.svg#linkedin" />
+            </svg>
+        </a>
+        </section>
     </header>
-    <main>
-        Courses go here
-    </main>
-    <footer>
-        Developed by yours truly (following @midudev's tutorial)
-    </footer>
+
 </body>
 
 </html>

@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-practice",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Terasel/Tailwind-practice#readme",
+  "bugs": {
+    "url": "https://github.com/Terasel/Tailwind-practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terasel/Tailwind-practice.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build:styles": ""
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
+}

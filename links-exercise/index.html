@@ -13,8 +13,8 @@
     bg-gradient-to-b from-black via-sky-950 to-gray-800">
 
     <header class="text-white">
-        <img src="./assets/Le me.jpg" alt="midudev xsiling" class="h-[50vh] object-cover mask-radial-at-center
-        mask-radial-from-45% mask-radial-to-70%">
+        <img src="./assets/Le me.jpg" alt="midudev smiling" class="h-[50vh] object-cover mask-radial-at-center
+        mask-radial-from-45% mask-radial-to-70% animate-pulse-fade-in">
 
         <header class="flex flex-col justify-center items-center mb-8 -mt-4">
             <span class="
@@ -31,20 +31,20 @@
             </span>
 
             <h1 class="text-3xl font-extrabold leading-tight
-            mt-1">
+            mt-1 font-display">
                 Miguel Ángel Durán
             </h1>
         </header>
 
         <section class="flex gap-2 justify-center">
-            <a class="bg-purple-100 social-button" href="https://twitch.tv/midudev" target="_blank" aria-label="Twitch"
+            <a class="bg-purple-100 social-button animate-slide-up-fade" href="https://twitch.tv/midudev" target="_blank" aria-label="Twitch"
                 title="Go to @midudev's Twitch">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#twitch" />
                 </svg>
             </a>
 
-            <a class="bg-zinc-900 social-button" href="https://github.com/midudev" target="_blank" aria-label="GitHub"
+            <a class="bg-zinc-900 social-button animate-slide-up-fade animate-delay-100" href="https://github.com/midudev" target="_blank" aria-label="GitHub"
                 title="Go to @midudev's GitHub">
                 <svg width="28" height="28">
                     <use xlink:href="./assets/sprite.svg#github" />
@@ -86,7 +86,7 @@
             Perferendis repellat eveniet accusantium?
         </p>
 
-        <main class="pt-4 px-4">
+        <main class="pt-4 px-4 pb-16">
             <div class="grid grid-cols-3 grid-rows-2 gap-2
             w-full">
                 <a href="https://cursoreact.dev" class="
@@ -94,12 +94,71 @@
                 bg-gradient-to-br from-cyan-900 via-cyan-700
                 to-cyan-500 border border-cyan-900
                 flex flex-col items-start hover:scale-105 hover:contrast-125
-                transition col-span-2 p-7 min-h-[180px]">
+                transition group col-span-2 p-7 min-h-[180px]">
                     <span class="absolute bottom-2 left-2 font-bold
-                    text-2xl">React.js</span>
+                    text-2xl group-hover:-translate-y-1
+                    transition-transform">React.js</span>
                     <svg class="absolute -right-4 -bottom-4
-                    -rotate-6 size-28" width="100" height="100">
+                    -rotate-6 size-28 group-hover:-rotate-12
+                    group-hover:scale-125 transition-transform" width="100" height="100">
                         <use xlink:href="./assets/sprite.svg#react" />
+                    </svg>
+                    <span class="absolute top-2 left-4
+                    text-xs border rounded-xl px-1 py-0.5">
+                        +14 class course</span>
+                </a>
+
+                <a href="https://midu.link/html" class="
+                relative rounded-3xl overflow-hidden
+                bg-gradient-to-br from-html via-[#F16529]
+                to-white border border-html
+                flex flex-col items-start hover:scale-105 hover:contrast-125
+                transition group col-span-1 p-7 min-h-[180px]">
+                    <span class="absolute bottom-2 left-2 font-bold
+                    text-2xl group-hover:-translate-y-1
+                    transition-transform">HTML</span>
+                    <svg class="absolute -right-4 -bottom-4
+                    -rotate-6 size-28 group-hover:-rotate-12
+                    group-hover:scale-125 transition-transform" width="100" height="100">
+                        <use xlink:href="./assets/sprite.svg#html" />
+                    </svg>
+                    <span class="absolute top-2 left-4
+                    text-xs border rounded-xl px-1 py-0.5">
+                        For beginners</span>
+                </a>
+
+                <a href="https://midu.link/html" class="
+                relative rounded-3xl overflow-hidden
+                bg-gradient-to-br from-[#663399] via-[#8e44ad]
+                to-white border border-[#663399]
+                flex flex-col items-start hover:scale-105 hover:contrast-125
+                transition group col-span-1 p-7 min-h-[180px]">
+                    <span class="absolute bottom-2 left-2 font-bold
+                    text-2xl group-hover:-translate-y-1
+                    transition-transform">CSS</span>
+                    <svg class="absolute -right-4 -bottom-4
+                    -rotate-6 size-28 group-hover:-rotate-12
+                    group-hover:scale-125 transition-transform" width="100" height="100">
+                        <use xlink:href="./assets/sprite.svg#css" />
+                    </svg>
+                    <span class="absolute top-2 left-4
+                    text-xs border rounded-xl px-1 py-0.5">
+                        For beginners</span>
+                </a>
+
+                <a href="https://cursoreact.dev" class="
+                relative rounded-3xl overflow-hidden
+                bg-gradient-to-br from-[#215732] via-[#3C873A]
+                to-[#8CC84B] border border-[#215732]
+                flex flex-col items-start hover:scale-105 hover:contrast-125
+                transition group col-span-2 p-7 min-h-[180px]">
+                    <span class="absolute bottom-2 left-2 font-bold
+                    text-2xl group-hover:-translate-y-1
+                    transition-transform">Node.js</span>
+                    <svg class="absolute -right-4 -bottom-4
+                    -rotate-6 size-28 group-hover:-rotate-12
+                    group-hover:scale-125 transition-transform" width="100" height="100">
+                        <use xlink:href="./assets/sprite.svg#node" />
                     </svg>
                     <span class="absolute top-2 left-4
                     text-xs border rounded-xl px-1 py-0.5">
